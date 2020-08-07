@@ -12,4 +12,4 @@ This [Wikipedia article](https://en.wikipedia.org/wiki/List_of_fake_news_website
 
 [This Research Article](https://advances.sciencemag.org/content/6/14/eaay3539) discusses the scale of misinformation ecosystem.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Going to create a site where the public can rate the core truth of any article &amp; track the credibility score over time of each journalist, editor &amp; publication. Thinking of calling it Pravda …</p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/999367582271422464?ref_src=twsrc%5Etfw">May 23, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Going to create a site where the public can rate the core truth of any article &amp; track the credibility score over time of each journalist, editor &amp; publication. Thinking of calling it Pravda …</p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/999367582271422464?ref_src=twsrc%5Etfw">May 23, 2018</a></blockquote>
