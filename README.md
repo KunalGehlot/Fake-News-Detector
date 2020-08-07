@@ -1,6 +1,14 @@
-# 🚨🚨 Fake-News-Detector 🚨🚨
+# 🚨🚨 Fake-News-Detector 🚨🚨 <!-- omit in toc -->
 
 Classifying Fake news using TfidfVectorizer ⚙
+
+# Table of Contents 📃
+
+- [Table of Contents 📃](#table-of-contents-)
+- [Synopsys 📝](#synopsys-)
+- [So, What is Fake News🚫?](#so-what-is-fake-news)
+- [What is a TfidfVectorizer💭?](#what-is-a-tfidfvectorizer)
+- [Dataset🔘](#dataset)
 
 # Synopsys 📝
 
@@ -16,4 +24,28 @@ Back in 2018, Elon Musk tweeted about an idea of creating a news credibility sco
 
 In 2019, a group of reserchers made it possbile before Elon Musk and started a KickStarter campaign for it; [this article](https://www.sciencealert.com/scientists-have-beaten-elon-musk-to-a-fake-news-solution-and-it-s-gaining-traction) shares about their approach in greater details.
 
-## So, What is Fake News🚫?
+# So, What is Fake News🚫?
+
+A simple [Wikipedia search](https://en.wikipedia.org/wiki/Fake_news) tells us, 
+
+Fake news, is a form of news consisting of deliberate disinformation or hoaxes spread via traditional news media (print and broadcast) or online social media. Digital news has brought back and increased the usage of fake news, or yellow journalism. The news is then often reverberated as misinformation in social media but occasionally finds its way to the mainstream media as well.
+
+# What is a TfidfVectorizer💭?
+
+ TFIDF, short for *term frequency–inverse document frequency*, is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus.
+
+*Term Frequency*, the number of times a word appears in a document divded by the total number of words in the document.
+
+![Term Frequency formula](img/1.png)
+
+*Inverse Data Frequency*, The log of the number of documents divided by the number of documents that contain the word w. Inverse data frequency determines the weight of rare words across all documents in the corpus.
+
+![Inverse Data Frequency Formula](img/2.png)
+
+Product of these two gives us the TF-IDF. The TfidfVectorizer converts a collection of raw documents into a matrix of TF-IDF features.
+
+You can import TfidfVectorizer using `sklearn.feature_extraction.text.TfidfVectorizer`. Learn more about it [here](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html).
+
+# Dataset🔘
+
+The dataset [`news.csv`](data/news.csv) has a shape of 7796×4. The first column identifies the news, the second and third are the title and text, and the fourth column has labels denoting whether the news is REAL or FAKE.
