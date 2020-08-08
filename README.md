@@ -8,7 +8,9 @@ Classifying Fake news using TfidfVectorizer ⚙
 - [Synopsys 📝](#synopsys-)
 - [So, What is Fake News🚫?](#so-what-is-fake-news)
 - [What is a TfidfVectorizer💭?](#what-is-a-tfidfvectorizer)
-- [Dataset🔘](#dataset)
+- [Dataset 🔘](#dataset-)
+- [What is Passive Aggressive Classifier😡?](#what-is-passive-aggressive-classifier)
+- [Results ✔](#results-)
 
 # Synopsys 📝
 
@@ -46,6 +48,14 @@ Product of these two gives us the TF-IDF. The TfidfVectorizer converts a collect
 
 You can import TfidfVectorizer using `sklearn.feature_extraction.text.TfidfVectorizer`. Learn more about it [here](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html).
 
-# Dataset🔘
+# Dataset 🔘
 
 The dataset [`news.csv`](data/news.csv) has a shape of 7796×4. The first column identifies the news, the second and third are the title and text, and the fourth column has labels denoting whether the news is REAL or FAKE.
+
+# What is Passive Aggressive Classifier😡?
+
+Passive-Aggressive algorithms are generally used for large-scale learning. It is one of the few ‘online-learning algorithms‘. In online machine learning algorithms, the input data comes in sequential order and the machine learning model is updated step-by-step, as opposed to batch learning, where the entire training dataset is used at once. Learn more [here](https://www.geeksforgeeks.org/passive-aggressive-classifiers/).
+
+# Results ✔
+
+I got an accuracy of 93% with this model. So with a larger enough database, we can confidently say that detecting fake news articles is pretty much easy and can be implemented in large scale on social media platforms.
